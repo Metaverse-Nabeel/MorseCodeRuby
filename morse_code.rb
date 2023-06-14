@@ -10,10 +10,9 @@ def decoding_morse_code(morse_code)
     '----.' => '9', '/' => ' '
   }
 
-  text = morse_code.split(' ').map { |code| morse_code_mapping[code] || code }.join('')
-  return text
+  morse_code.split.map { |code| morse_code_mapping[code] || code }.join
 end
 
-bottle_message = ".-  -... --- -..-  ..-. ..- .-.. .-..  --- ..-.  .-. ..- -... .. . ..."
+bottle_message = '.-  -... --- -..-  ..-. ..- .-.. .-..  --- ..-.  .-. ..- -... .. . ...'
 message = decoding_morse_code(bottle_message)
 puts "The message of Bottle is #{message}"
