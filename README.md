@@ -82,6 +82,12 @@ cd MorseCodeRuby
 - LinkedIn: [@Nabeel129](https://www.linkedin.com/in/nabeel129/)
 - Wellfound(AngelList): [@Nabeel129](https://wellfound.com/u/nabeel-ahmed-62)
 
+👷‍♂️ **daniela**
+
+- GitHub: [@daniela](https://github.com/danielamoreno699)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/daniela-moreno-06a139124/)
+- twitter : [twitter](@Daniela38932450)
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
