@@ -9,9 +9,7 @@ def decoding_morse_code(morse_code)
     '....-' => '4', '.....' => '5', '-....' => '6', '--...' => '7', '---..' => '8',
     '----.' => '9', '/' => ' '
   }
-
-  text = morse_code.split(' ').map { |code| morse_code_mapping[code] || code }.join('')
-  return text
+  morse_code.split.map { |code| morse_code_mapping[code] || code }.join
 end
 
 # paste the code here
