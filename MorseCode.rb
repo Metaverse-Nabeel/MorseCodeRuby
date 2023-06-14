@@ -14,4 +14,6 @@ def decoding_morse_code(morse_code)
   return text
 end
 
-# paste the code here
+bottle_message = ".-  -... --- -..-  ..-. ..- .-.. .-..  --- ..-.  .-. ..- -... .. . ..."
+message = decoding_morse_code(bottle_message)
+puts "The message of Bottle is #{message}"
